@@ -1,0 +1,46 @@
+DROP TABLE IF EXISTS people;
+CREATE TABLE people (
+    id INTEGER PRIMARY KEY,
+    first_name,
+    last_name,
+    age INTEGER,
+    favorite_color,
+    gender,
+    hair_color
+);
+
+INSERT INTO people (first_name, last_name, age, favorite_color, gender, hair_color)
+VALUES 
+('Emma', 'Johnson', 28, 'Blue', 'Female', 'Blonde'),
+('Noah', 'Smith', 32, 'Green', 'Male', 'Brown'),
+('Olivia', 'Williams', 24, 'Purple', 'Female', 'Black'),
+('Liam', 'Brown', 45, 'Red', 'Male', 'Blonde'),
+('Ava', 'Jones', 19, 'Yellow', 'Female', 'Red'),
+('Lucas', 'Garcia', 37, 'Orange', 'Male', 'Brown'),
+('Mia', 'Miller', 29, 'Pink', 'Female', 'Black'),
+('Ethan', 'Davis', 51, 'Blue', 'Male', 'Brown'),
+('Isabella', 'Rodriguez', 22, 'Green', 'Female', 'Brown'),
+('Mason', 'Martinez', 63, 'Purple', 'Male', 'Black');
+
+SELECT first_name, LENGTH(first_name) FROM people;
+
+SELECT last_name, SUBSTR(last_name, 3) FROM people;
+
+INSERT INTO people (first_name, last_name, age, favorite_color, gender, hair_color)
+VALUES 
+('Sophia', 'Chen', 26, '    Teal    ', 'Female', 'Black'),
+('Jacob', 'Taylor', 41, '    Maroon', 'Male', 'Brown'),
+('Charlotte', 'Wilson', 33, 'Turquoise    ', 'Female', 'Blonde');
+
+SELECT id, TRIM(favorite_color) AS favorite_color FROM people WHERE id = 11;
+SELECT id, LTRIM(favorite_color) AS favorite_color FROM people WHERE id = 12;
+SELECT id, RTRIM(favorite_color) AS favorite_color FROM people WHERE id = 13;
+
+SELECT * FROM people;
+
+SELECT * FROM people WHERE first_name LIKE 'l%';
+SELECT * FROM people WHERE first_name LIKE '_i%';
+
+SELECT FORMAT('%2.2f', AGE) AS AGE_FLOAT FROM people;
+
+SELECT first_name || ' ' || last_name AS full_name FROM people;
