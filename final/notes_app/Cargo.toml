@@ -1,0 +1,11 @@
+[package]
+name = "notes_app"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rocket = { version = "0.5.1", features = ["json"] }
+rusqlite = { version = "0.37", features = ["bundled"] }
+r2d2 = "0.8.10"
+r2d2_sqlite = "0.31.0"
+serde = { version = "1.0.228", features = ["derive"] }
