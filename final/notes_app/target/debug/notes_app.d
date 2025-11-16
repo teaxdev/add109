@@ -1,1 +1,0 @@
-/home/alex/repos/add109/final/notes_app/target/debug/notes_app: /home/alex/repos/add109/final/notes_app/src/db.rs /home/alex/repos/add109/final/notes_app/src/error.rs /home/alex/repos/add109/final/notes_app/src/main.rs /home/alex/repos/add109/final/notes_app/src/models.rs /home/alex/repos/add109/final/notes_app/src/routes.rs
