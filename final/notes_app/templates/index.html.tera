@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+
+<body>
+    <h1>{{ message }}</h1>
+
+    <h2>New Note</h2>
+    <form action="/notes" method="post">
+        <input type="number" name="user_id" required>
+        <input type="text" name="title" required>
+        <textarea name="content"></textarea>
+        <button type="submit">Add Note</button>
+    </form>
+
+    <p>tera is working</p>
+
+    <a href="/notes">View Notes</a>
+</body>
+</html>

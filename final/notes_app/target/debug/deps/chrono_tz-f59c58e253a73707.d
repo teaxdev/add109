@@ -1,0 +1,15 @@
+/home/alex/repos/add109/final/notes_app/target/debug/deps/chrono_tz-f59c58e253a73707.d: /home/alex/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/chrono-tz-0.9.0/src/lib.rs /home/alex/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/chrono-tz-0.9.0/src/binary_search.rs /home/alex/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/chrono-tz-0.9.0/src/directory.rs /home/alex/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/chrono-tz-0.9.0/src/timezone_impl.rs /home/alex/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/chrono-tz-0.9.0/src/timezones.rs /home/alex/repos/add109/final/notes_app/target/debug/build/chrono-tz-ccf2af9e25417eb3/out/directory.rs /home/alex/repos/add109/final/notes_app/target/debug/build/chrono-tz-ccf2af9e25417eb3/out/timezones.rs
+
+/home/alex/repos/add109/final/notes_app/target/debug/deps/libchrono_tz-f59c58e253a73707.rlib: /home/alex/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/chrono-tz-0.9.0/src/lib.rs /home/alex/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/chrono-tz-0.9.0/src/binary_search.rs /home/alex/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/chrono-tz-0.9.0/src/directory.rs /home/alex/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/chrono-tz-0.9.0/src/timezone_impl.rs /home/alex/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/chrono-tz-0.9.0/src/timezones.rs /home/alex/repos/add109/final/notes_app/target/debug/build/chrono-tz-ccf2af9e25417eb3/out/directory.rs /home/alex/repos/add109/final/notes_app/target/debug/build/chrono-tz-ccf2af9e25417eb3/out/timezones.rs
+
+/home/alex/repos/add109/final/notes_app/target/debug/deps/libchrono_tz-f59c58e253a73707.rmeta: /home/alex/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/chrono-tz-0.9.0/src/lib.rs /home/alex/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/chrono-tz-0.9.0/src/binary_search.rs /home/alex/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/chrono-tz-0.9.0/src/directory.rs /home/alex/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/chrono-tz-0.9.0/src/timezone_impl.rs /home/alex/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/chrono-tz-0.9.0/src/timezones.rs /home/alex/repos/add109/final/notes_app/target/debug/build/chrono-tz-ccf2af9e25417eb3/out/directory.rs /home/alex/repos/add109/final/notes_app/target/debug/build/chrono-tz-ccf2af9e25417eb3/out/timezones.rs
+
+/home/alex/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/chrono-tz-0.9.0/src/lib.rs:
+/home/alex/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/chrono-tz-0.9.0/src/binary_search.rs:
+/home/alex/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/chrono-tz-0.9.0/src/directory.rs:
+/home/alex/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/chrono-tz-0.9.0/src/timezone_impl.rs:
+/home/alex/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/chrono-tz-0.9.0/src/timezones.rs:
+/home/alex/repos/add109/final/notes_app/target/debug/build/chrono-tz-ccf2af9e25417eb3/out/directory.rs:
+/home/alex/repos/add109/final/notes_app/target/debug/build/chrono-tz-ccf2af9e25417eb3/out/timezones.rs:
+
+# env-dep:OUT_DIR=/home/alex/repos/add109/final/notes_app/target/debug/build/chrono-tz-ccf2af9e25417eb3/out
