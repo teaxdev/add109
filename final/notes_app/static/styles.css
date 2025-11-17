@@ -22,20 +22,30 @@ textarea,
 button {
     padding: 5px;
     border-radius: 2px;
-    border: 1px solid rgb(152, 121, 244);
+    border: 1px solid rgb(121, 129, 244);
     font-size: 20px;
 }
 
 button {
-    background-color: #3b82f6;
+    background-color: rgb(121, 129, 244);
     color: white;
     border-color: transparent;
 }
 
 button:hover {
-    background-color: #346ee9;
+    background-color: rgb(88, 97, 224);
 }
 
 a {
-    color: #2563eb;
+    color: rgb(121, 129, 244);
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(121, 129, 244);
+  color: white;
+  text-align: center;
 }
