@@ -49,3 +49,60 @@ footer {
   color: white;
   text-align: center;
 }
+
+#color {
+    padding: 0;
+    border-radius: 3px;
+}
+.logged {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.not-logged {
+    display: inline-block;
+    background-color: #ff4800;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    max-width: 100%;
+}
+
+.note {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    border: 3px solid #ccc;
+    flex: 1 1 300px;
+    min-width: 250px;
+}
+
+.delete-form {
+    display: inline;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.date {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 10px;
+}

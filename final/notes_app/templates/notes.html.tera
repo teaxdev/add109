@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+
+<body>
+    <h1>My Notes</h1>
+    
+    <p><a href="/">← Back to Home</a></p>
+    
+    {% if notes_count > 0 %}
+    <p>You have {{ notes_count }} notes.</p>
+    
+    <div class="container">
+    {% for note in notes %}
+    <div class="note" style="border-color: {% if note.color %}{{ note.color }}{% else %}#ccc{% endif %};">
+        <h3>{{ note.title }}</h3>
+        {% if note.content %}
+        <p>{{ note.content }}</p>
+        {% endif %}
+        <p class="date">
+            Created: {{ note.created_at }}
+            {% if note.updated_at != note.created_at %}
+            | Updated: {{ note.updated_at }}
+            {% endif %}
+        </p>
+        <form action="/notes/{{ note.id }}/delete" method="post" class="delete-form">
+            <button type="submit" class="delete-button">Delete</button>
+        </form>
+    </div>
+    {% endfor %}
+    </div>
+    {% else %}
+    <p>You don't have any notes yet. <a href="/">Create your first note!</a></p>
+    {% endif %}
+</body>
+</html>

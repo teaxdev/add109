@@ -1,9 +1,8 @@
 use r2d2_sqlite::SqliteConnectionManager;
-use r2d2::{Pool, PooledConnection};
-use rusqlite::{params, Connection, Result};
+use r2d2::Pool;
+use rusqlite::Result;
 
 pub type DbPool = Pool<SqliteConnectionManager>;
-pub type DbConn = PooledConnection<SqliteConnectionManager>;
 
 
 pub fn init_db() -> DbPool {
@@ -33,6 +32,7 @@ fn run_migrations(conn: &rusqlite::Connection) -> Result<()> {
             user_id     INTEGER NOT NULL,
             title       TEXT NOT NULL,
             content     TEXT,
+            color       TEXT NULL,
             created_at  DATETIME DEFAULT CURRENT_TIMESTAMP,
             updated_at  DATETIME DEFAULT CURRENT_TIMESTAMP,
             FOREIGN KEY(user_id) REFERENCES users(id) ON DELETE CASCADE
